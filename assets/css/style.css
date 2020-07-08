@@ -1,0 +1,50 @@
+section {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+section h1 {
+  font-size: 1.7em;
+}
+section h2 {
+  height: 2vh;
+}
+
+.container {
+  padding: 2vh 2%;
+  width: 20%;
+  min-height: 50vh;
+  background: linear-gradient(
+    45deg,
+    rgb(230, 182, 190) 40%,
+    rgb(161, 243, 235)
+  );
+  color: white;
+  border-radius: 5px;
+}
+
+button {
+  height: 30px;
+  width: 50px;
+  background: palevioletred;
+  justify-self: center;
+  margin: 1vh 0;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  color: white;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.btn-container {
+  padding: 3vh 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
